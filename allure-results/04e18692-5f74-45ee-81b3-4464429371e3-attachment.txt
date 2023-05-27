@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//android.view.View[@content-desc='Bookmarks']/android.widget.ImageView"
+}

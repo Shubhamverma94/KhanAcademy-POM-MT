@@ -1,0 +1,27 @@
+import type { ElementArray } from '../../types.js';
+/**
+ *
+ * The `customs$$` allows you to use a custom strategy declared by using `browser.addLocatorStrategy`
+ *
+ * <example>
+    :example.js
+    it('should get all the plugin wrapper buttons', async () => {
+        await browser.url('https://webdriver.io')
+        await browser.addLocatorStrategy('myStrat', (selector) => {
+            return document.querySelectorAll(selector)
+        })
+
+        const pluginRowBlock = await browser.custom$('myStrat', '.pluginRowBlock')
+        const pluginWrapper = await pluginRowBlock.custom$$('myStrat', '.pluginWrapper')
+
+        console.log(pluginWrapper.length) // 4
+    })
+ * </example>
+ *
+ * @alias custom$$
+ * @param {string} strategyName
+ * @param {*} strategyArguments
+ * @return {ElementArray}
+ */
+export declare function custom$$(this: WebdriverIO.Element, strategyName: string, ...strategyArguments: any[]): Promise<ElementArray>;
+//# sourceMappingURL=custom$$.d.ts.map

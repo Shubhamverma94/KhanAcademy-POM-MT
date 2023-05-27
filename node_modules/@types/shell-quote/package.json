@@ -1,0 +1,35 @@
+{
+    "name": "@types/shell-quote",
+    "version": "1.7.1",
+    "description": "TypeScript definitions for shell-quote",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/shell-quote",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Jason Cheatham",
+            "url": "https://github.com/jason0x43",
+            "githubUsername": "jason0x43"
+        },
+        {
+            "name": "Cameron Diver",
+            "url": "https://github.com/CameronDiver",
+            "githubUsername": "CameronDiver"
+        },
+        {
+            "name": "Opportunity Liu",
+            "url": "https://github.com/OpportunityLiu",
+            "githubUsername": "OpportunityLiu"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/shell-quote"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "54ce85cb73372be56bfb1986d1339e02b26eb9daf63aec8155872d567fd506b3",
+    "typeScriptVersion": "3.6"
+}
